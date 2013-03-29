@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4F2F9A0D10AC310045FB13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F2F990D10AC310045FB13 /* Default.png */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		28141FFC0D6E783400D05362 /* BonjourWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28141FFB0D6E783400D05362 /* BonjourWebAppDelegate.m */; };
+		2B449E2911C8326F00B24959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B449E2811C8326F00B24959 /* CoreGraphics.framework */; };
+		2B449E2B11C8327500B24959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B449E2A11C8327500B24959 /* Foundation.framework */; };
+		2B449E2D11C8327B00B24959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B449E2C11C8327B00B24959 /* UIKit.framework */; };
+		40B3A64E15795D1E00890491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3A64C15795D1E00890491 /* ViewController.m */; };
+		40B3A64F15795D1E00890491 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A64D15795D1E00890491 /* ViewController.xib */; };
+		40B3A65E157A14CD00890491 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A65C157A14CD00890491 /* MainWindow-iPad.xib */; };
+		40B3A660157A327300890491 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A65F157A327300890491 /* Default-Portrait~ipad.png */; };
+		40B3A662157A328800890491 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A661157A328800890491 /* Default-Portrait@2x~ipad.png */; };
+		40B3A664157A329100890491 /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A663157A329100890491 /* 144x144.png */; };
+		40B3A666157A329500890491 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A665157A329500890491 /* 72x72.png */; };
+		40B3A668157A32A000890491 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A667157A32A000890491 /* Default@2x.png */; };
+		40B3A66A157A32AD00890491 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A669157A32AD00890491 /* 114x114.png */; };
+		40B3A66C157A32B200890491 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3A66B157A32B200890491 /* 57x57.png */; };
+		40C376E2157BE22D006F9D44 /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C376DF157BE22D006F9D44 /* 102-walk.png */; };
+		40C376E3157BE22D006F9D44 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C376E0157BE22D006F9D44 /* 96-book.png */; };
+		40C376E4157BE22D006F9D44 /* 156-controlpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C376E1157BE22D006F9D44 /* 156-controlpad.png */; };
+		4ADC7FB80DDD21B500F4B61B /* BonjourBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC7FB10DDD21B500F4B61B /* BonjourBrowser.m */; };
+		4ADC7FB90DDD21B500F4B61B /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC7FB30DDD21B500F4B61B /* BrowserViewController.m */; };
+		4ADC7FBA0DDD21B500F4B61B /* DomainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC7FB50DDD21B500F4B61B /* DomainViewController.m */; };
+		4ADC7FBB0DDD21B500F4B61B /* SimpleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC7FB70DDD21B500F4B61B /* SimpleEditViewController.m */; };
+		533541920F94E6F300F4AF08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5335418E0F94E6F300F4AF08 /* Localizable.strings */; };
+		533541930F94E6F300F4AF08 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533541900F94E6F300F4AF08 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4F2F990D10AC310045FB13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iControlNao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iControlNao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28141FF50D6E774E00D05362 /* iControlNao_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iControlNao_Prefix.pch; sourceTree = "<group>"; };
+		28141FFA0D6E783400D05362 /* BonjourWebAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourWebAppDelegate.h; sourceTree = "<group>"; };
+		28141FFB0D6E783400D05362 /* BonjourWebAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourWebAppDelegate.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B449E2811C8326F00B24959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B449E2A11C8327500B24959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B449E2C11C8327B00B24959 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40B3A64B15795D1E00890491 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40B3A64C15795D1E00890491 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40B3A64D15795D1E00890491 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		40B3A65D157A14CD00890491 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		40B3A65F157A327300890491 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		40B3A661157A328800890491 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		40B3A663157A329100890491 /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
+		40B3A665157A329500890491 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		40B3A667157A32A000890491 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		40B3A669157A32AD00890491 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		40B3A66B157A32B200890491 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		40C376DF157BE22D006F9D44 /* 102-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk.png"; sourceTree = "<group>"; };
+		40C376E0157BE22D006F9D44 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		40C376E1157BE22D006F9D44 /* 156-controlpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "156-controlpad.png"; sourceTree = "<group>"; };
+		4ADC7FB00DDD21B500F4B61B /* BonjourBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BonjourBrowser.h; path = BonjourSupport/BonjourBrowser.h; sourceTree = "<group>"; };
+		4ADC7FB10DDD21B500F4B61B /* BonjourBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BonjourBrowser.m; path = BonjourSupport/BonjourBrowser.m; sourceTree = "<group>"; };
+		4ADC7FB20DDD21B500F4B61B /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrowserViewController.h; path = BonjourSupport/BrowserViewController.h; sourceTree = "<group>"; };
+		4ADC7FB30DDD21B500F4B61B /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrowserViewController.m; path = BonjourSupport/BrowserViewController.m; sourceTree = "<group>"; };
+		4ADC7FB40DDD21B500F4B61B /* DomainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DomainViewController.h; path = BonjourSupport/DomainViewController.h; sourceTree = "<group>"; };
+		4ADC7FB50DDD21B500F4B61B /* DomainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DomainViewController.m; path = BonjourSupport/DomainViewController.m; sourceTree = "<group>"; };
+		4ADC7FB60DDD21B500F4B61B /* SimpleEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleEditViewController.h; path = BonjourSupport/SimpleEditViewController.h; sourceTree = "<group>"; };
+		4ADC7FB70DDD21B500F4B61B /* SimpleEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleEditViewController.m; path = BonjourSupport/SimpleEditViewController.m; sourceTree = "<group>"; };
+		5335418F0F94E6F300F4AF08 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		533541910F94E6F300F4AF08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B449E2911C8326F00B24959 /* CoreGraphics.framework in Frameworks */,
+				2B449E2B11C8327500B24959 /* Foundation.framework in Frameworks */,
+				2B449E2D11C8327B00B24959 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28141FFA0D6E783400D05362 /* BonjourWebAppDelegate.h */,
+				28141FFB0D6E783400D05362 /* BonjourWebAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iControlNao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				40C376DF157BE22D006F9D44 /* 102-walk.png */,
+				40C376E0157BE22D006F9D44 /* 96-book.png */,
+				40C376E1157BE22D006F9D44 /* 156-controlpad.png */,
+				40B3A66B157A32B200890491 /* 57x57.png */,
+				40B3A669157A32AD00890491 /* 114x114.png */,
+				40B3A667157A32A000890491 /* Default@2x.png */,
+				40B3A665157A329500890491 /* 72x72.png */,
+				40B3A663157A329100890491 /* 144x144.png */,
+				40B3A661157A328800890491 /* Default-Portrait@2x~ipad.png */,
+				40B3A65F157A327300890491 /* Default-Portrait~ipad.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				4ADC7FA00DDD217500F4B61B /* Support */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				40B3A65B157A14CD00890491 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28141FF50D6E774E00D05362 /* iControlNao_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5335418E0F94E6F300F4AF08 /* Localizable.strings */,
+				533541900F94E6F300F4AF08 /* MainWindow.xib */,
+				1D4F2F990D10AC310045FB13 /* Default.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B449E2811C8326F00B24959 /* CoreGraphics.framework */,
+				2B449E2A11C8327500B24959 /* Foundation.framework */,
+				2B449E2C11C8327B00B24959 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40B3A65B157A14CD00890491 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				40B3A65C157A14CD00890491 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		4ADC7FA00DDD217500F4B61B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC7FB00DDD21B500F4B61B /* BonjourBrowser.h */,
+				4ADC7FB10DDD21B500F4B61B /* BonjourBrowser.m */,
+				4ADC7FB20DDD21B500F4B61B /* BrowserViewController.h */,
+				4ADC7FB30DDD21B500F4B61B /* BrowserViewController.m */,
+				4ADC7FB40DDD21B500F4B61B /* DomainViewController.h */,
+				4ADC7FB50DDD21B500F4B61B /* DomainViewController.m */,
+				4ADC7FB60DDD21B500F4B61B /* SimpleEditViewController.h */,
+				4ADC7FB70DDD21B500F4B61B /* SimpleEditViewController.m */,
+				40B3A64B15795D1E00890491 /* ViewController.h */,
+				40B3A64C15795D1E00890491 /* ViewController.m */,
+				40B3A64D15795D1E00890491 /* ViewController.xib */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iControlNao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iControlNao" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iControlNao;
+			productName = BonjourWeb;
+			productReference = 1D6058910D05DD3D006BFB54 /* iControlNao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iControlNao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iControlNao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4F2F9A0D10AC310045FB13 /* Default.png in Resources */,
+				533541920F94E6F300F4AF08 /* Localizable.strings in Resources */,
+				533541930F94E6F300F4AF08 /* MainWindow.xib in Resources */,
+				40B3A64F15795D1E00890491 /* ViewController.xib in Resources */,
+				40B3A65E157A14CD00890491 /* MainWindow-iPad.xib in Resources */,
+				40B3A660157A327300890491 /* Default-Portrait~ipad.png in Resources */,
+				40B3A662157A328800890491 /* Default-Portrait@2x~ipad.png in Resources */,
+				40B3A664157A329100890491 /* 144x144.png in Resources */,
+				40B3A666157A329500890491 /* 72x72.png in Resources */,
+				40B3A668157A32A000890491 /* Default@2x.png in Resources */,
+				40B3A66A157A32AD00890491 /* 114x114.png in Resources */,
+				40B3A66C157A32B200890491 /* 57x57.png in Resources */,
+				40C376E2157BE22D006F9D44 /* 102-walk.png in Resources */,
+				40C376E3157BE22D006F9D44 /* 96-book.png in Resources */,
+				40C376E4157BE22D006F9D44 /* 156-controlpad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28141FFC0D6E783400D05362 /* BonjourWebAppDelegate.m in Sources */,
+				4ADC7FB80DDD21B500F4B61B /* BonjourBrowser.m in Sources */,
+				4ADC7FB90DDD21B500F4B61B /* BrowserViewController.m in Sources */,
+				4ADC7FBA0DDD21B500F4B61B /* DomainViewController.m in Sources */,
+				4ADC7FBB0DDD21B500F4B61B /* SimpleEditViewController.m in Sources */,
+				40B3A64E15795D1E00890491 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40B3A65C157A14CD00890491 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B3A65D157A14CD00890491 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		5335418E0F94E6F300F4AF08 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5335418F0F94E6F300F4AF08 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		533541900F94E6F300F4AF08 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533541910F94E6F300F4AF08 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iControlNao_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = iControlNao;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iControlNao_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = iControlNao;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iControlNao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iControlNao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
